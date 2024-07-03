@@ -25,7 +25,7 @@ $firstMovie= new Movie("trottola", 2022 , 4);
 $secondMovie= new Movie("calciatore", 2012 , 2);
 
 
-var_dump($firstMovie , $secondMovie);
+var_dump($firstMovie->getYear());
 
 
 ?>
